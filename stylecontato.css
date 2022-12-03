@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+    color: aquamarine;
+}
+div {
+    text-align: center;
+    margin-top: 250px;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-style: italic;
+    color: aqua
+}

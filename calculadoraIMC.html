@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadoraIMC.css">
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <title>Calcular IMC</title>
+</head>
+    <h1>Calculadora IMC</h1>
+    <main>
+        <ul>
+            <li>
+                <a href="RafaelConstantino.html">Página Inicial</a> 
+            </li>
+            <li>
+                <a href="Contato.html">Contato</a>
+            </li>
+        </ul>
+    </main>
+
+<body>
+    <section>
+            <form onsubmit="return calcular(event)">
+            <label>Digite seu peso:</label> <br/>
+            <input type="text" name="peso" id="peso" placeholder="Ex.: 65"> <br><br/>
+
+            <label>Digite sua altura:</label> <br/>
+            <input type="text" name="altura" id="altura" placeholder="Ex.: 1.70"> <br><br/>
+
+            <input type="submit" value="Calcular IMC">
+            </form>
+    </section>
+    <div id="resultado"></div>
+    <script src="calculadoraIMC.js"></script>
+
+</body>
+    <footer>&copy;  Rafael Constantino</footer>
+</html>
